@@ -1,0 +1,11 @@
+# Telco Athena Layered Architecture Demo
+
+## Overview
+This project demonstrates how to refactor a messy monolithic SQL script into a clean, modular layered architecture in AWS Athena (or any SQL engine that supports views).
+
+We simulate a Telco dataset with:
+- **Raw Layer**: Customers, Subscriptions, Network Usage, Payments
+- **Silver Layer**: Standardization, cleaning, deduplication, validation
+- **Gold Layer**: Star schema with dimensions and fact tables ready for BI tools
+
+## Structure
